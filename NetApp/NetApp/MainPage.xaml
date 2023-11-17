@@ -14,8 +14,8 @@
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Bivenido"
-                FontSize="Small"
+                Text="Bienvenido"
+                FontSize="22"
                 HorizontalTextAlignment="Center"/>
 
             <Entry
