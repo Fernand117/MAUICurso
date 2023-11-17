@@ -3551,31 +3551,34 @@ namespace XamRideDroid
 			public const int transition_transform = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int txtUsuario = 2131230898;
+			public const int txtPassword = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int uniform = 2131230899;
+			public const int txtUsuario = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int unlabeled = 2131230900;
+			public const int uniform = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int up = 2131230901;
+			public const int unlabeled = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int useLogo = 2131230902;
+			public const int up = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int view_offset_helper = 2131230903;
+			public const int useLogo = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int visible = 2131230904;
+			public const int view_offset_helper = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int withText = 2131230905;
+			public const int visible = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int wrap_content = 2131230906;
+			public const int withText = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int wrap_content = 2131230907;
 			
 			static Id()
 			{
