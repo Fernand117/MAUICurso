@@ -115,7 +115,6 @@
                         HorizontalTextAlignment="Center" 
                         VerticalTextAlignment="Center"/>
                 </StackLayout>
-
             </Grid>
         </StackLayout>
     </ScrollView>

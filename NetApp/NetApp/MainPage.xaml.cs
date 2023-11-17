@@ -11,10 +11,19 @@ namespace NetApp
 
         private async void btnLogin_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Advertencia", "Verificando datos en el servidor", "Aceptar");
+            if (string.IsNullOrEmpty(txtUsuario.Text))
+            {
+                await DisplayAlert("Advertencia", "Ingrese un nombre de usuario", "Aceptar");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txtPassword.Text))
+            {
+                await DisplayAlert("Advertencia", "Ingrese su contraseña", "Aceptar");
+                return;
+            }
 
             await Navigation.PushModalAsync(new Dashboard());
         }
     }
-
 }
