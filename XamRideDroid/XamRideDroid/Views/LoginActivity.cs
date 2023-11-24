@@ -3,6 +3,7 @@ using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
+using AlertDialog = Android.Support.V7.App.AlertDialog;
 
 namespace XamRideDroid.Views
 {
@@ -28,7 +29,23 @@ namespace XamRideDroid.Views
 
         private void BtnLoginOnClick(object sender, EventArgs e)
         {
-            Console.WriteLine("Dentro del botón del login");
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            dialog.SetTitle("Advertencia");
+            
+            string usuario = txtUsuario.Text;
+            string password = txtPassword.Text;
+
+            if (string.IsNullOrEmpty(usuario))
+            {
+                dialog.SetMessage("Ingrese su nombre de usuario por favor");
+            }
+
+            if (string.IsNullOrEmpty (password))
+            {
+                dialog.SetMessage("Ingrese su contraseña");
+            }
+
+            dialog.Show();
         }
     }
 }
